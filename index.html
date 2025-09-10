@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>레이저 태그 스포츠</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎯 레이저 태그 스포츠 리뷰 🏆</h1>
+      <p>📸 리뷰 작성 법: 사진 1장, 추천사 2줄 필수입니다!</p>
+      <p>🔔 리뷰 작성 후, 직원에게 꼭 보여주세요</p>
+      <p>🙏 감사합니다</p>
+    </header>
+
+    <main>
+      <div class="button-container">
+        <div class="review-button naver">
+          <a>
+            <img
+              src="./icons/naver.png"
+              alt="네이버 리뷰 아이콘"
+              class="emoji"
+            />
+            <p>네이버 리뷰</p>
+            <p>(영수증 필요)</p>
+          </a>
+        </div>
+        <div class="review-button google">
+          <a>
+            <img
+              src="./icons/google.png"
+              alt="구글 리뷰 아이콘"
+              class="emoji"
+            />
+            <p>구글 리뷰</p>
+          </a>
+        </div>
+        <div class="review-button insta">
+          <a>
+            <img
+              src="./icons/instagram.png"
+              alt="인스타그램 아이콘"
+              class="emoji"
+            />
+            <p>인스타그램</p>
+          </a>
+        </div>
+      </div>
+
+      <div id="imageModal">
+        <div class="modal-content">
+          <h3>⭕ 좋아요</h3>
+          <div class="image-row">
+            <img src="./icons/best1.jpeg" alt="Best Example 1" />
+            <img src="./icons/best2.jpeg" alt="Best Example 2" />
+          </div>
+
+          <h3>❌ 나빠요</h3>
+          <div class="image-row">
+            <img src="./icons/worst1.jpg" alt="Worst Example 1" />
+            <img src="./icons/worst2.jpg" alt="Worst Example 2" />
+          </div>
+          <button
+            class="close-btn"
+            onclick="document.getElementById('imageModal').style.display='none'"
+          >
+            5초 뒤에 이동합니다
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

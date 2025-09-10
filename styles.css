@@ -1,0 +1,109 @@
+/* 기본 리셋 및 텍스트 정렬 */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+main {
+  padding: 30px 10px;
+}
+
+/* 버튼 컨테이너 */
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* 각 리뷰 버튼 */
+.review-button {
+  width: 150px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review-button:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.review-button img.emoji {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.review-button p {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* 모달 스타일 */
+#imageModal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  position: relative;
+  width: 70%;
+  max-width: 700px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.image-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-row img {
+  width: 35%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.close-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #333;
+}
