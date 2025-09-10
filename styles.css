@@ -89,7 +89,7 @@ main {
 }
 
 .image-row img {
-  width: 35%;
+  width: 40%;
   border-radius: 5px;
   object-fit: cover;
 }
