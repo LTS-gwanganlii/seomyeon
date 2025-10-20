@@ -36,7 +36,7 @@ window.onload = function () {
     alert(request);
     showExamplesAndRedirect(() => {
       window.location.href =
-        "https://new.smartplace.naver.com/bizes/place/11538753/reviews?menu=visitor";
+        "https://m.place.naver.com/place/2070088115/review/visitor";
     });
   });
 
