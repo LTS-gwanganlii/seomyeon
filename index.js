@@ -43,8 +43,7 @@ window.onload = function () {
   google.addEventListener("click", () => {
     alert(request);
     showExamplesAndRedirect(() => {
-      // window.location.href = "https://g.page/r/CXfAXMEY8nB9EAI/review";
-      alert("현재 준비중입니다!");
+    window.location.href = "https://g.page/r/CZljzmWOpSCtEAE/review";
     });
   });
 
